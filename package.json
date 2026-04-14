@@ -1,0 +1,29 @@
+{
+  "name": "mealtime-monorepo",
+  "version": "1.0.0",
+  "description": "MealTime Food Delivery Platform",
+  "author": "MealTime",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "MealTime-FE",
+    "MealTime-BE",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "clean": "turbo run clean"
+  },
+  "devDependencies": {
+    "turbo": "^1.13.0"
+  },
+  "packageManager": "pnpm@8.6.0",
+  "dependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.0.0"
+  }
+}

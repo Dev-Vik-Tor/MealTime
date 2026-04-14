@@ -1,0 +1,4 @@
+packages:
+  - 'MealTime-FE'
+  - 'MealTime-BE'
+  - 'packages/*'
